@@ -1,0 +1,25 @@
+FreeRTOS - Student id #22 (the last one)
+
+FreeRTOS is a real time (RT) OS kernel for embedded devices.
+It's released under the MIT license - the kernel itself is pretty lightweight: It consists of only three (!) C files.
+As of today (some day in September 2019), the latest release date is the 25th of February, 2019.
+
+FreeRTOS was originally developed by Richard Barry in 2003, in 2017 his company passed the rights over to the Amazon Web Services / AWS. Richard continued to work on FreeRTOS as part of an AWS team.
+Since then, FreeRTOS became a market leading OS in its sector: It supports more than 35 architectures and waas downloaded every 175 seconds during 2018.
+
+It became kind of a standard for microcontrollers and IoT devices.
+Some of the main reasons are:
+
+    - High quality C source code
+    - Large and growing community
+    - Free support
+    - Small enough to run on a microcontroller
+    - Programmable with ease, management of devices with low power usage
+    - Able to connect to the cloud or local edge-devices
+    
+The original mission of FreeRTOS was to provide an RTOS solution that was easy to use: No figuring out which source files or include paths are required, no more wasting time with configuring the real time debugging environment. The FreeRTOS queue usage model manages to combine simplicity with flexibility - it's based on the User Model.
+
+To sum everything up, we can say that FreeRTOS is:
+    - Easy to use
+    - Has a very small footprint
+    - Robust
